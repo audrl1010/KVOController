@@ -77,6 +77,18 @@ KVOController takes advantage of recent Objective-C runtime advances, including 
 
 ## Installation
 
+To install using SPM(swift package manager), add the following to your project SPM:
+
+```
+dependencies: [
+    .package(
+        url: "https://github.com/audrl1010/KVOController",
+        .upToNextMajor(from: "1.2.2")
+    ),
+],
+```
+
+
 To install using [CocoaPods](https://github.com/cocoapods/cocoapods), add the following to your project Podfile:
 
 ```ruby
